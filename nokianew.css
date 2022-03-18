@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-div {
+}
+
+.top-main-div {
+  display: flex;
+  height: 70px;
+}
+.top-left {
+  width: 350px;
+  padding-left: 110px;
+  padding-top: 10px;
+}
+.top-middle {
+  display: flex;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.top-middle:hover {
+  /* color: blue; */
+}
+
+.middle-first {
+  width: 110px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+
+.middle-second {
+  width: 130px;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+.middle-third {
+  width: 110px;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+.middle-fourth {
+  width: 130px;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: flex;
+}
+.text:hover {
+  opacity: 0.5;
+  color: rgba(0, 60, 255, 0.911);
+}
+
+.top-right {
+  width: 500px;
+  display: flex;
+  cursor: pointer;
+  color: #26599e;
+  margin-left: 30px;
+}
+.top-right-first {
+  width: 50px;
+  padding-top: 20px;
+}
+.top-right-second {
+  width: 60px;
+  padding-top: 20px;
+}
+.top-right-third {
+  width: 40px;
+  padding-top: 20px;
+}
+.top-right-fourth {
+  width: 80px;
+  padding-top: 25px;
+}
+
+.bottom-main1-div {
+  background: url("nokia.new.webp");
+  width: 100%;
+  height: 700px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* width:100%;  */
+.bottom1-text {
+  margin-left: 350px;
+}
+.nokia-text1 {
+  font-size: 50px;
+  color: rgb(2, 9, 15);
+  font-weight: bold;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+.nokia-text2 {
+  color: black;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+.nokia-text-main {
+  padding-top: 300px;
+}
+.nokia-text3 {
+  background-color: rgba(0, 102, 255, 0.911);
+  color: white;
+  width: 125px;
+  height: 45px;
+  padding-left: 5px;
+
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nokia-text3:hover {
+  width: 130px;
+  height: 50px;
+}
+
+.bottom-main2-div {
+  /* background: url("/nokia/nokia-images/nokianew1.jpg"); */
+  /* width: 100% ; */
+  height: 750px;
+  /* background-color: crimson; */
+  display: flex;
+  align-items: center;
+}
+
+.bottom-main2-div2 {
+  background: url("nokianew1.jpg");
+
+  height: 550px;
+  width: 1200px;
+
+  margin-left: 150px;
+
+  background-color: blue;
+}
+.image-text {
+  font-size: 55px;
+  color: white;
+  padding-left: 29px;
+  padding-top: 200px;
+}
+.image-text2 {
+  background-color: rgba(0, 102, 255, 0.911);
+  color: white;
+  width: 110px;
+  height: 45px;
+  padding-left: 15px;
+  margin-left: 30px;
+
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.image-text2:hover {
+  width: 120px;
+  height: 55px;
+}
+
+.index {
+  width: 100%;
+  height: 700px;
+  background-color: #001135;
+  
+}
+.index-header {
+  width: 100%;
+  height: 100px;
+  /* background-color: white; */
+  padding-left: 200px;
+  padding-top: 100px;
+}
+.index-middle {
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.index-middle-left {
+  display: flex;
+  color: white;
+  margin-left: 190px;
+  width:300px;
+ 
+  /* background-color: cornflowerblue; */
+  justify-content: space-around;
+}
+
+.index-middle-left1 {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-top: 8px;
+  border-radius: ;
+  
+ /* background-color: chartreuse; */
+}
+ .index-middle-left1:hover{
+  background-color: white;
+  color:#001135;
+ }
+
+.index-middle-left2 {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-top: 8px;
+  /* background-color: chartreuse; */
+}
+.index-middle-left2:hover{
+  background-color: white;
+  color:#001135;
+ }
+.index-middle-left3 {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-top: 8px;
+  /* background-color: chartreuse; */
+}
+.index-middle-left3:hover{
+  background-color: white;
+  color:#001135;
+ }
+.index-middle-left4 {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-left: 8px;
+  padding-top: 8px;
+  /* background-color: chartreuse; */
+}
+.index-middle-left4:hover{
+  background-color: white;
+  color:#001135;
+ }
+ .index-middle-left2-1{
+   height: 25px;
+   width: 200px;
+   color: white;
+   /* background-color: rgb(179, 119, 119); */
+   padding-left: 50px;
+   padding-top: 10px;
+ }
+ .index-middle-left2-2{
+  height: 45px;
+  width: 350px;
+  color: white;
+  /* background-color: rgb(172, 14, 14); */
+  padding-left: 100px;
+  padding-top: 5px;
+ }
+ .index-middle-right{
+   height: 35px;
+   width: 130px;
+   border-radius: 3px;
+   border:1px solid white;
+   border-color: white;
+   /* background-color: antiquewhite; */
+   color: white;
+   padding-left: 60px;
+   padding-top: 10px;
+   margin-left: 100px;
+   cursor: pointer;
+ }
+ .index-middle-right:hover{
+  height: 42px;
+  width: 135px;
+  color: rgb(0, 132, 255);
+  background-color: white;
+ }
+ .index-bottom{
+   margin-left: 205px;
+   display: flex;
+   flex-direction: row;
+ }
+ .index-bottom1{
+   width: 180px;
+   height: 180px;
+   display:flex;
+   flex-direction: column;
+   color: white;
+   /* background-color: aquamarine; */
+   justify-content: space-between;
+ }
+ .index-bottom2{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   color: white;
+   /* background-color: rgb(27, 233, 233); */
+   width: 180px;
+   height: 380px;
+   padding-left: 25px;
+ }
+ .index-bottom3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  /* background-color: rgb(27, 233, 233); */
+  width: 180px;
+  height: 200px;
+  padding-left: 25px;
+}
+.index-bottom4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  /* background-color: rgb(27, 233, 233); */
+  width: 180px;
+  height: 350px;
+  padding-left: 25px;
+}
+.index-bottom5{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  /* background-color: rgb(27, 233, 233); */
+  width: 180px;
+  height: 280px;
+  padding-left: 25px;
+}
